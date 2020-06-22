@@ -1,0 +1,11 @@
+k1=find(sigma(round(sqrt(0.9)/dX),1:80)<0.02);
+k2=find(sigma(round(sqrt(0.9)/dX),1:80)<0.02);
+k3=find(X(round(sqrt(0.9)/dX),1:80)<0.02);
+k4=find(X(round(sqrt(0.9)/dX),1:80)<0.02);
+k5=find(X(round(sqrt(0.9)/dX),1:80)<0.02);
+k=zeros(5,1);
+k(1)=k1(1);
+k(2)=k2(1);
+k(3)=k3(1);
+k(4)=k4(1);
+k(5)=k5(1);
